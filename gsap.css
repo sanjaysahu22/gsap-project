@@ -1,0 +1,43 @@
+*{
+    padding: 0;
+    margin: 0;
+
+    background-color: black;
+}
+@font-face {
+    font-family: "Heading-Now-Variable";
+ 
+    src:url(https://moqo.be/dist/fonts/Heading-Now-Variable.ttf
+    )
+}
+
+#nav{
+  
+    height: 100px;
+    width:95%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 15px;
+    color: white;
+    padding-left: 30px;
+    text-transform: uppercase;
+    border-bottom:1.5px solid #fff;
+}
+#main{
+ background-color: crimson;
+ font-size: 230px;
+ color: #fff;
+ 
+}
+#downbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#page>video{
+    height: 1000px;
+    width: 2000px;
+    
+     object-fit:cover;
+}

@@ -1,0 +1,10 @@
+gsap.from("#box1",{
+    x:700,
+    y:300,
+    backgroundColor:"blue",
+    rotate:360,
+    delay:1,
+    duration:3,
+    opacity:0,
+    yoyo:true
+})
